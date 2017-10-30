@@ -1,0 +1,10 @@
+version: '3'
+services:
+  boilerplate:
+    restart: always
+    image: lomocc/boilerplate
+    container_name: boilerplate
+    build: .
+    network_mode: "bridge"
+    labels:
+      - VIRTUAL_HOST=boilerplate.lomo.cc
