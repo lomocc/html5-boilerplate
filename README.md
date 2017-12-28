@@ -1,10 +1,10 @@
-﻿# 项目名称
+﻿# 项目名称 [![Build Status](https://travis-ci.org/lomocc/html5-boilerplate.svg?branch=master)](https://travis-ci.org/lomocc/html5-boilerplate)
 
 ## 安装依赖
-`npm install`
+`yarn install`
 
 ## 运行
-`npm start`
+`yarn start`
 
 ## 发布
-`npm run build:release`
+`yarn run build:release`
